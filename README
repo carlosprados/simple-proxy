@@ -10,4 +10,4 @@ The usage is very simple:
 java -cp simple-proxy-1.0-SNAPSHOT.jar com.carlosprados.lab.simpleproxy.Proxy <localport> <host> <port> <timeout_ms>
 
 You can buil it using Maven
-charlie@capitel:$ mvn clean package
+charlie@dune:$ mvn clean package
