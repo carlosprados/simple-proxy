@@ -1,5 +1,6 @@
-Welcome to the simple-proxy wiki!
-=====================================
+# Simple Proxy
+
+Welcome to Simple Proxy project!
 
 This project aims to be a very simple TCP proxy.
 
@@ -9,5 +10,8 @@ to reach production servers through an intermediate machine.
 The usage is very simple:
 java -cp simple-proxy-1.0-SNAPSHOT.jar com.carlosprados.lab.simpleproxy.Proxy <localport> <host> <port> <timeout_ms>
 
-You can buil it using Maven
+You can buil it using Maven:
+
+```bash
 charlie@dune:$ mvn clean package
+```
