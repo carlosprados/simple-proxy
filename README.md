@@ -8,10 +8,13 @@ It has been used in real scenarios for DevOps and IT engineers in order
 to reach production servers through an intermediate machine.
 
 The usage is very simple:
-java -cp simple-proxy-1.0-SNAPSHOT.jar com.carlosprados.lab.simpleproxy.Proxy <localport> <host> <port> <timeout_ms>
+
+```bash
+charlie@imperator$java -cp simple-proxy-1.0-SNAPSHOT.jar com.carlosprados.lab.simpleproxy.Proxy <localport> <host> <port> <timeout_ms>
+```
 
 You can buil it using Maven:
 
 ```bash
-charlie@dune:$ mvn clean package
+charlie@imperator$ mvn clean package
 ```
